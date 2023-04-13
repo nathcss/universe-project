@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 10px;
+  background-image: url('images/hd-wallpaper-2695569_1920.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+div > article {
+  background-color: rgba(0, 0, 0, 0.403);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  width: 30%;
+  height: 10px;
+}
+
+header > h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+p.ngila {
+  text-align: center;
+}
+
+.align {
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 30px;
+  min-width: 300px;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+
+header {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.403);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 0px black;
+  border-radius: 10px;
+}
+
+header.align {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.7em;
+  line-height: 0.9;
+}
+
+img.displayed {
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+}
+
+
+main {
+  width: 80%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.564);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.7em;
+  line-height: 0.9;
+}
+
+
+h2.center {
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.564);
+  color: white;
+  text-align: center;
+  padding: 3px;
+  position: unset;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
